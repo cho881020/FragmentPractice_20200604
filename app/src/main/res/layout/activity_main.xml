@@ -10,7 +10,24 @@
     <fragment
         android:tag="첫번째프래그먼트"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         class="kr.co.tjoeun.fragmentpractice_20200604.fragments.FirstFragment"/>
+
+<!--    파란색 계열의 바탕을 가진 SecondFragment를 만들어서 배치 -->
+
+    <fragment
+        android:tag="secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        class="kr.co.tjoeun.fragmentpractice_20200604.fragments.SecondFragment" />
+
+    <fragment
+        android:tag="firstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        class="kr.co.tjoeun.fragmentpractice_20200604.fragments.FirstFragment" />
 
 </LinearLayout>
