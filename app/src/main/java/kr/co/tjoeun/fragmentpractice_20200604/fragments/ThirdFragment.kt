@@ -14,7 +14,7 @@ class ThirdFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return  inflater.inflate(R.layout.fragment_first, container, false)
+        return  inflater.inflate(R.layout.fragment_third, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
